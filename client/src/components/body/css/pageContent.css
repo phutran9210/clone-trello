@@ -1,0 +1,16 @@
+.wrapDrag {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.sc-gtcAbF {
+  width: 15em !important;
+}
+.btnColumn {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}

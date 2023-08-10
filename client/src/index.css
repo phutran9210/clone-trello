@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+.SideMenuAndPageContent {
+  width: 100%;
+  /* display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: rgba(0, 0, 0, 0.05); */
+  height: 70%;
+}
+.PageContent {
+  padding-left: 1em;
+}
+.pageContent {
+  padding: 1em;
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 0.5em;
+  overflow-x: auto;
+
+  height: 100%;
+}
